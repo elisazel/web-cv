@@ -1,0 +1,165 @@
+<!-- DATA DIRI -->
+
+<!-- 
+  
+NAMA : Zelda Elisa Hijry
+
+NIM : 230401010046
+
+KELAS : IT 201
+
+MATA KULIAH : Pemrograman Web I 
+
+-->
+
+<!-- PROGRAM -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js" rel="script">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="Style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="content" class="container">
+        <header>
+            <h1 class="text-center">Curriculum Vitae</h1>
+            <hr>
+        </header>
+
+        <!-- Image -->
+        <div class="text-center">
+            <img src="profile_picture.jpeg" alt="photo"  style="object-fit: cover; border-radius: 50%; size: fixed" width="200" height="200" >
+        </div>
+
+        <!-- Description -->
+        <section>
+            <h2>Description</h2>
+            <p>Hi, I'm Zelda Elisa Hijry. I am a Frontend Programmer who is very interested in creating websites. I enjoy reading books in my free time.</p>
+            <p>I have approximately 2 years of experience as a Frontend Programmer and have worked on projects such as approval-based websites and logistics-based websites. I am good at learning new things about websites, such as learning new frameworks or new programming languages.</p>
+        </section>
+
+        <!-- Education -->
+        <section>
+          <div class="row">
+              <div class="col-md-6">
+                  <h3>Education</h3>
+                  <ul>
+                      <li>Citra Az-Zahra Elementary School (2015)</li>
+                      <li>SMPN 75 Junior High School (2018)</li>
+                      <li>SMK Telkom Jakarta Senior High School (2021)</li>
+                  </ul>
+              </div>
+          </div>
+      </section>
+
+        <!-- Work Experience -->
+        <section>
+          <div class="row">
+              <div class="col-md-6">
+                  <h3>Work Experience</h3>
+                  <ul>
+                      <li>PT. Paramadaksa Teknologi Nusantara(NexSoft) as Frontend Programmer (2021-now)</li>
+                  </ul>
+              </div>
+          </div>
+      </section>
+
+        <!-- Certification -->
+        <section>
+          <div class="row">
+              <div class="col-md-6">
+                  <h3>Certification</h3>
+                  <ul>
+                      <li>Fun Coding Bootcamp by Paideia (2021)</li>
+                  </ul>
+              </div>
+          </div>
+      </section>
+
+        <!-- Skills -->
+        <section>
+          <h3>Skills</h3>
+          <table class="table table-borderless">
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td style="flex: auto; margin: 1px;">
+                  Programming Language (
+                  <img src="jslogo.jpg" style="width: 20px; height: 20px;">
+                  <img src="javalogo.png" style="width: 20px; height: 20px;">
+                  <img src="phplogo.jpg" style="width: 20px; height: 20px;">
+                  )
+                </td>
+                <td>
+                  Proficient in PHP, JavaScript, and Java.
+                  Experience in web application development using React JS and Laravel.
+                  Strong understanding of object-oriented programming (OOP) concepts.
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td style="flex: auto; margin: 1px;">Frontend Development</td>
+                <td>    
+                  Capable of building responsive user interfaces (UI) using HTML, CSS, and JavaScript.
+                  Familiar with frontend frameworks such as Bootstrap, Ant Design (AntD), and Tailwind CSS.
+                  Knowledgeable about adaptive web design and best practices in frontend development.</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td style="flex: auto; margin: 1px;">Project Management</td>
+                <td>    
+                  Skilled in managing software development projects using Agile methodologies (Scrum).
+                  Experience with project management tools like Jira and Trello.
+                  Ability to collaborate with teams and deliver projects on time.</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td style="flex: auto; margin: 1px;">Other Skill</td>
+                <td>    
+                  Good understanding of software testing and debugging.
+                  Ability to optimize web application performance and perform debugging.
+                  Strong communication skills and ability to work effectively in teams.</td>
+              </tr>
+            </tbody>
+          </table>
+      </section>
+
+        <!-- Links -->
+        <section>
+            <h2>Links</h2>
+            <ul>
+                <li>About me <i><a href="about_me.html">Click to see</a></i></li>
+            </ul>
+            <!-- <button onclick="downloadPDF()">Download PDF</button> -->
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center mt-5">
+            <p>© 2024 Zelda Elisa Hijry. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <!-- TO DO Download CV -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+
+    <script>
+    function downloadPDF() {
+        const content = document.getElementById('content').innerText;
+        const pdf = new jsPDF();
+        pdf.text(content, 10, 10);
+        pdf.save('output.pdf');
+    }
+    </script> -->
+
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
